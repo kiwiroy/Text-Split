@@ -104,7 +104,7 @@ sub _strip_edness ($) {
 
 sub _parse_slurp ($@) {
     my $slurp = shift;
-    my %slurp = @_; # Can/will be overidden
+    my %slurp = @_; # Can/will be overridden
 
     _strip_edness \%slurp;
 
